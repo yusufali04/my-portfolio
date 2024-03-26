@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+<body>
+
+
+
+  <div id="load-wrap">
+
+    <div style="display: flex; align-items: center; flex-direction: column;">
+  
+      <div class="loading-circle">
+        <div class="circle"></div>
+      </div>
+      <p style="margin-top: 1rem;" id="loading-text">Please Wait a moment...</p>
+  
+    </div>
+    
+  
+  </div>
+
+  <section id="home">
+
+    <div class="lamp" id="app">
+
+      <nav class="my_nav">
+  
+          <h2><span>y</span>usuf</h2>
+          <ul>
+              <div class="nav-item">
+                  <li> <a href="#">Home</a></li>
+              </div>
+              
+              <div class="nav-item">
+                  <li><a href="#info">About</a></li>
+              </div>
+
+              <div class="nav-item">
+                <li><a href="#technologies">My Skills</a></li>
+              </div>
+  
+              <div class="nav-item">
+                  <li><a href="#projects">Projects</a></li>
+              </div>
+             
+              <div class="nav-item">
+                  <li><a href="#contact">Contact</a></li>
+              </div>
+              
+              
+          </ul>
+  
+          <a href="./resume.pdf" target="_blank" download="Yusuf's CV"><div class="action_btn"><button class="btn">Download CV</button></div>
+      </nav>
+
+      <nav id="nav-mobile-top">
+        <h2><span>y</span>usuf</h2>
+        <a href="./resume.pdf" target="_blank" download="Yusuf's CV"><button>DOWNLOAD CV</button></a>
+      </nav>
+  
+  
+      <div class="bg">
+  
+          <div class="home-wrapper">
+  
+            <div class="sub-left">
+  
+              <div class="name-div">
+  
+                <h1>Hello, I'm <span>Yusuf</span></h1>
+                <p>A Full Stack Web Developer</p>
+                <p style="font-size: 0.8rem;">Aspiring about WEB3 and Blockchain technology</p>
+                <a href="#info"><button id="view-my-work-btn">View My Work <i id="arrow" class="fa-solid fa-caret-down"></i></button></a>
+  
+              </div>
+              
+  
+            </div>
+  
+            <div class="sub-right">
+              
+              <img id="chatmessage" class="default-props" src="./img/hello.png" alt="">
+              <img id="chatmessage1" class="default-props" src="./img/thanks.png" alt="">
+              <img id="chatmessage2" class="default-props" src="./img/message2.png" alt="">
+              <img id="chatmessage3" class="default-props" src="./img/message3.png" alt="">
+              <img src="./img/fluid4.png" alt="">
+  
+            </div>
+  
+          </div>
+
+                                                <!-- for mobile -->
+
+          <div class="home-wrapper-mobile">
+
+            <div class="pic">
+              
+              <img id="chatmessage" class="default-props" src="./img/hello.png" alt="">
+              <img id="chatmessage1" class="default-props" src="./img/thanks.png" alt="">
+              <img id="chatmessage2" class="default-props" src="./img/message2.png" alt="">
+              <img id="chatmessage3" class="default-props" src="./img/message3.png" alt="">
+              <img class="cover-image" src="./img/fluid4.png" alt="">
+              <h1>Hello, I'm <span>Yusuf</span></h1>
+              <p>A Full Stack Web Developer</p>
+              <a href="#nav-mobile"><button class="mobile-h-btn" id="view-my-work-btn">View My Work <i id="arrow" class="fa-solid fa-caret-down"></i></button></a>
+
+            </div>
+          
+          </div>
+  
+          <div class="lamp">
+            <div class="lava">
+              <div class="blob" v-for="i in 7" :key="i"></div>
+              <div class="blob"></div>
+              <div class="blob"></div>
+              <div class="blob"></div>
+              <div class="blob"></div>
+              <div class="blob"></div>
+              <div class="blob top"></div>
+              <div class="blob bottom"></div>
+            </div>
+            
+          </div>
+  
+    
+  
+          
+  
+  </div>
+  
+
+  </section>
+
+  <div id="nav-mobile">
+    <ul>
+    
+      <a href="#">
+        <div class="nav-item-m">
+          <li>Home</li>
+      </div>
+      </a>
+      
+      <a href="#info">
+        <div class="nav-item-m">
+          <li>About</li>
+      </div>
+      </a>
+      
+      <a href="#technologies">
+        <div class="nav-item-m">
+          <li>My Skills</li>
+        </div>
+      </a>
+      
+      <a href="#projects">
+        <div class="nav-item-m">
+          <li>Projects</li>
+      </div>
+      </a>
+      
+      <a href="#contact">
+        <div class="nav-item-m">
+          <li>Contact</li>
+      </div>
+      </a>
+    
+    </ul>
+  </div>
+
+
+<section id="info">
+
+
+    <div data-aos="fade-down" class="aboutme">
+
+      <div class="about-heading-div">
+        <h1 class="heading">About Me</h1>
+      </div>
+      
+      <p>I'm enthusiastic software developer. My passion towards computer science made me full stack web developer. Continuously learning new and modern technologies to make better applications. Aspiring about WEB3 and Blockchain Technology.</p>
+
+    </div>
+
+    <div class="expertise-edu-wrapper">
+
+      <div data-aos="fade-right" class="left">
+
+        <div class="exp-left center">
+          <img class="large-icon" src="./img/code-icon.png" alt="">
+        </div>
+
+        <div class="exp-right center">
+
+          <div>
+
+            <h1>Expertise</h1>
+          <p>Deep understanding of Node.js and JavaScript. Familier with Reactjs, frontend frameworks and integration of API's.</p>
+
+          </div>
+          
+        </div>
+        
+      </div>
+
+      <div data-aos="fade-left" class="right">
+
+        <div class="edu-left" >
+          <img class="large-icon" src="./img/graduation.png" alt="">
+        </div>
+
+        <div class="edu-right center">
+          <div>
+
+            <h1>Education</h1>
+            <p>Pursuing B.sc in Computer Science and Electronics at St.joseph's College, Kurnool.</p>
+
+          </div>
+          
+        </div>
+        
+      </div>
+
+      
+    </div>
+
+</section>
+
+<section id="projects">
+
+  <div class="projects-main-wrap">
+
+    <div data-aos="fade-right" data-aos-delay="600" style="width: 90%; margin-top: 2rem;">
+      <h1 class="heading">My Projects</h1>
+      <p style="margin-top: 1rem; color: grey; letter-spacing: 0.5px;"><em>*hover or click to see details</em></p>
+    </div>
+
+    <div>
+
+      <div class="projects-wrap">
+
+        <div data-aos="fade-down-right" id="project1" class="project1 project">
+  
+          <div class="project-info">
+            <h3>Real World Project</h3>
+            <p>Billing And Business Management Web App</p>
+            <button id="project1-btn"  class="see-details-btn">See Details <i style="transform: rotate(-90deg);" class="fa-solid fa-caret-down"></i></button>
+          </div>
+  
+          
+  
+        </div>
+        <div data-aos="fade-down" id="project2" class="project2 project">
+  
+          <div class="project-info">
+            <h3>Realtime Code Editor</h3>
+            <p>A realtime collaborative code editor for developers</p>
+            <button id="project2-btn" class="see-details-btn">See Details <i style="transform: rotate(-90deg);" class="fa-solid fa-caret-down"></i></button>
+          </div>
+  
+        </div>
+        <div data-aos="fade-down-left" id="project3" class="project3 project">
+  
+          <div class="project-info">
+            <h3>Ecommerce Application</h3>
+            <p>App with Add to cart, Authentication Functionalities</p>
+            <button id="project3-btn" class="see-details-btn">See Details <i style="transform: rotate(-90deg);" class="fa-solid fa-caret-down"></i></button>
+          </div>
+  
+        </div>
+
+        <!-- Project4 and 5 for mobile -->
+
+        <div data-aos="fade-up-right" id="project4" class="tablet project4 project">
+
+          <div class="project-info">
+            <h3>Realtime Chatting App</h3>
+            <p>Realtime communication using websockets</p>
+            <button class="see-details-btn project4-btn">See Details <i style="transform: rotate(-90deg);" class="fa-solid fa-caret-down"></i></button>
+            </div>
+
+        </div>
+
+          
+
+        
+
+    </div>
+
+    <div class="projects-line2-wrap">
+
+        <div data-aos="fade-up-right" id="project4" class="non-tablet project4 project">
+
+          <div class="project-info">
+            <h3>Realtime Chatting App</h3>
+            <p>Realtime communication using websockets</p>
+            <button class="see-details-btn project4-btn">See Details <i style="transform: rotate(-90deg);" class="fa-solid fa-caret-down"></i></button>
+            </div>
+
+        </div>
+
+        <div data-aos="fade-up-left" id="project5" class="non-tablet project5 project">
+
+          <div class="project-info">
+            <h3>My Portfolio</h3>
+            <p>This is my beaufitul responsive portfolio with great UI design built on my own</p>
+            <button class="see-details-btn project5-btn">See Details <i style="transform: rotate(-90deg);" class="fa-solid fa-caret-down"></i></button>
+            </div>
+
+        </div>
+
+        <div data-aos="fade-up-left" id="project5" class="tablet pro-5-tab project5 project">
+
+          <div class="project-info">
+            <h3>My Portfolio</h3>
+            <p>This is my beaufitul responsive portfolio with great UI design built on my own</p>
+            <button class="see-details-btn project5-btn">See Details <i style="transform: rotate(-90deg);" class="fa-solid fa-caret-down"></i></button>
+          </div>
+
+        </div>
+
+    </div>
+      
+
+    </div>
+
+  </div>
+  <!-- modal for project1 -->
+
+  <div id="project1-modal" class="project-modal">
+
+    <div id="modal-wrap" class="wrap">
+      
+      <span class="close">&times;</span>
+      <button class="github-btn"><a class="github-a" href="https://github.com/yusufali04/billing-and-business-management-webapp" target="_blank"> <i class="fa-brands fa-github fa-2x"></i> View Project</a></button>
+      <h1>Jewellery Billing And Business Management WebApp</h1> <hr>
+      <p>A highly responsive webApp with beautiful UI designed for a jewellery business.<br>
+        It was a realworld webapp which i have built for a business and currently it isactively used in the business <br>
+        <a href="https://mirzajewels.com/">Click here to visit<i style="margin-left: 0.3rem;" class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </p>
+      
+      <h3>Tech Stack</h3> <hr>
+      
+      <p>Client-side: HTML, CSS, Javascript.<br>Server-side: Node, Express, Ejs, Socket.io, MongoDB and Mongoose.</p>
+
+      <h3>Features</h3> <hr>
+      <ul>
+        <li>Admin Panel with authentication</li>
+        <li>Generating Invoices</li>
+        <li>Interactive Billing History</li>
+        <li>Receiving Queries from customers</li>
+        <li>Highly Responsive Design</li>
+      </ul>
+      
+    </div>
+  </div>
+  <!-- modal for project1 end -->
+
+  <!-- modal for project2 -->
+
+  <div id="project2-modal" class="project-modal">
+
+    <div id="modal-wrap" class="wrap">
+      
+      <span class="close">&times;</span>
+      <button class="github-btn"><a class="github-a" href="https://github.com/yusufali04/realtime-code-editor" target="_blank"> <i class="fa-brands fa-github fa-2x"></i> View Project</a></button>
+      <h1>Realtime Collaborative Code Editor</h1> <hr>
+      <p>A realtime code editor where we can create rooms, join rooms using room Id,leave rooms, realtime code sync among all the clients and also shows all the connected users.All the users in the room will be notified as soon as any user joins the room or leaves the room in realtime.</p>
+      
+      <h3>Tech Stack</h3> <hr>
+      
+      <p>Client-side: HTML, CSS, Javascript, ReactJS<br>Server-side: Node, Express, Socket.io</p>
+      <p></p>
+      <h3>Features</h3> <hr>
+      <ul>
+        <li>Realtime code sync among all the members in the room</li>
+        <li>Code editor with auto completion features</li>
+        <li>Unique room ID generation</li>
+        <li>Notifications when anyone in the room enters or leaves</li>
+        <li>Shows the list of all the users present in the room</li>
+      </ul>
+      
+    </div>
+  </div>
+
+  <!-- modal for project2 end-->
+
+  <!-- modal for project3 -->
+
+  <div id="project3-modal" class="project-modal">
+
+    <div id="modal-wrap" class="wrap">
+      
+      <span class="close">&times;</span>
+      <button class="github-btn"><a class="github-a" target="_blank" href="https://github.com/yusufali04/ecommerce-app"> <i class="fa-brands fa-github fa-2x"></i> View Project</a></button>
+      <h1>Ecommerce WebApp</h1> <hr>
+      <p>It is an ecommerce app with minimum functionalities.Sessions and cookies are used in this project for storing the cart information and it has authentication system for users.</p>
+      
+      <h3>Tech Stack</h3> <hr>
+      
+      <p>Client-side: HTML, CSS, Javascript<br>Server-side: Node, Express, Ejs and mongoDB</p>
+
+      <h3>Features</h3> <hr>
+      <ul>
+        <li>Add to cart functionality</li>
+        <li>Authentication System</li>
+      </ul>
+      
+    </div>
+  </div>
+
+  <!-- modal for project3 end-->
+
+  <!-- modal for project4 -->
+
+  <div id="project4-modal" class="project-modal">
+
+    <div id="modal-wrap" class="wrap">
+      
+      <span class="close">&times;</span>
+      <button class="github-btn"><a class="github-a" target="_blank" href="https://github.com/yusufali04/realtime-chatting"> <i class="fa-brands fa-github fa-2x"></i> View Project</a></button>
+      <h1>Realtime Chat Application</h1> <hr>
+      <p>A chat application where we can chat with multiple persons as a group online</p>
+      
+      <h3>Tech Stack</h3> <hr>
+      
+      <p>Client-side: HTML, CSS, Javascript<br>Server-side: Node.js, Express.js, Socket.io</p>
+
+      <h3>Features</h3> <hr>
+      <ul>
+        <li>Realtime chatting</li>
+        <li>Anyone with the link can join the chat</li>
+        <li>Chat at a time with multiple users as a group</li>
+      </ul>
+      
+    </div>
+  </div>
+
+  <!-- modal for project4 end-->
+
+  <!-- modal for project5 -->
+
+  <div id="project5-modal" class="project-modal">
+
+    <div id="modal-wrap" class="wrap">
+      
+      <span class="close">&times;</span>
+      <button class="github-btn"><a class="github-a" target="_blank" href="https://github.com/yusufali04/billing-and-business-management-webapp"> <i class="fa-brands fa-github fa-2x"></i> View Project</a></button>
+      <h1>Jewellery Billing And Business Management WebApp</h1> <hr>
+      <p>A highly responsive webApp with beautiful UI designed for a jewellery business.<br> <br>
+        It was a realworld webapp which i have built for a business and currently it isactively used in the business <br><br> 
+        <a href="https://mirzajewels.com/">Click here to visit<i style="margin-left: 0.3rem;" class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </p>
+      
+      <h3>Tech Stack</h3> <hr>
+      
+      <p>Client-side: HTML, CSS, Javascript.<br><br>Server-side: Node, Express, Ejs, Socket.io, MongoDB and Mongoose.</p>
+
+      <h3>Features</h3> <hr>
+      <ul>
+        <li>Admin Panel with authentication</li>
+        <li>Generating Invoices</li>
+        <li>Interactive Billing History</li>
+        <li>Receiving Queries from customers</li>
+        <li>Highly Responsive Design</li>
+      </ul>
+      
+    </div>
+  </div>
+
+  <!-- modal for project5 end-->
+
+  <div id="technologies">
+    <div data-aos="fade-right">
+      <h1 class="heading">I can work with...</h1>
+    </div>
+    
+
+    <div data-aos="fade-left" data-aos-duration="1500" class="frontend technology-wrap">
+
+      <div class="sub-div1">
+        <h2 class="sub-heading">Frontend Technologies</h2>
+        
+      </div>
+
+      
+      
+      <div class="sub-div2">
+
+        <div class="techdiv">
+          <img src="./img/technology logos/html.png" alt="">
+          <p>HTML</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/css.png" alt="">
+          <p>CSS</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/javascript.png" alt="">
+          <p>Javascript</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/react.png" alt="">
+          <p>ReactJS</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/ejs.png" alt="">
+          <p>Ejs</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div data-aos="fade-right" data-aos-duration="1500" class="backend technology-wrap">
+
+      <div class="sub-div1">
+        <h2 class="sub-heading">Backend Technologies</h2>
+        
+      </div>
+
+      <div class="sub-div2">
+
+        <div class="techdiv">
+          <img src="./img/technology logos/node.png" alt="">
+          <p>Node.js</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/express.png" alt="">
+          <p>Express.js</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/mongoose.png" alt="">
+          <p>Mongoose</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/mongodb.png" alt="">
+          <p>MongoDB</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/socket.png" alt="">
+          <p>Socket.io</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/passport.png" alt="">
+          <p>Passport.js</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/restapi.png" alt="">
+          <p>REST API's</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div data-aos="fade-left" data-aos-duration="1500" class="devops technology-wrap">
+
+      <div class="sub-div1">
+        <h2 class="sub-heading">DevOps</h2>
+        
+      </div>
+
+      <div class="sub-div2">
+
+        <div class="techdiv">
+          <img src="./img/technology logos/git.png" alt="">
+          <p>Git & Github</p>
+        </div>
+        <div class="techdiv">
+          <img src="./img/technology logos/docker.png" alt="">
+          <p>Docker</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="contact">
+
+  <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M0 100 C 20 0 50 0 100 100 Z" />
+  </svg>
+  
+  <div id="contact-div">
+  
+    <div data-aos="zoom-out" class="contact-wrap">
+      
+      <div data-aos="fade-down"> 
+        <p>Contact Me</p>
+      </div>
+      
+      <hr data-aos="fade-right" data-aos-delay="300">
+  
+      <!-- <form action=""> -->
+        <input type="text" placeholder="Name"> <br>
+        <input type="email" placeholder="Email"> <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        <button id="submitbtn">Submit</button>
+        
+      <!-- </form> -->
+  
+    </div>
+  
+    <div class="copyright">
+  
+      <a href="#home">
+        <div class="scrollup">
+          <i class="fa-solid fa-angles-up fa-2x"></i>
+        </div>
+      </a>
+  
+      <div class="social-media">
+        <a target="_blank" href="https://github.com/yusufali04"><i class="fa-brands fa-github fa-2x"></i></a>
+        <a target="_blank" class="unavailable" > <i class="fa-brands fa-linkedin fa-2x"></i></a>
+        <a target="_blank" class="unavailable" ><i class="fa-brands fa-instagram fa-2x"></i></a>
+        <a target="_blank" class="unavailable" ><i class="fa-brands fa-facebook fa-2x"></i></a>
+        
+      </div>
+      
+      <p style="margin-top: 2rem;">Yusuf Ali &#169; 2023</p>
+    </div>
+  </div>
+
+  <div id="unavailable-modal" class="unavailable-modal">
+
+    <div class="unavailable-wrap">
+      <div class="div1">
+        <h3>My contact details</h3> 
+      </div>
+      <hr>
+      <div class="div2">
+        <p id="modal-text">Note: Currently i am unavailable on social media. Kindly use below details to contact me. Thank you!</p> <br>
+        <p id="modal-email">Email : yusufali.5094@gmail.com</p>
+        <p id="modal-phone">Phone : +91 9490625094</p>
+      </div>
+      <hr>
+      <div class="div3">
+        <button id="ok-btn">OK</button>
+      </div>
+      
+      
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      // Global settings:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 800, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: true, // whether animation should happen only once - while scrolling down
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+    });
+</script>
+
+<script src="./app.js"></script>
+
+</body>
+
+</html>
